@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Importing stylesheet main.css -->
+  <link rel="stylesheet" href="/stylesheets/main.css">
+  <!--Import materialize.css-->
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <!-- Imported font from fontawesome.com -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+    crossorigin="anonymous">
+  <!-- Imported material icons font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Importing animations from animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Adding color to website tab in chrome -->
+  <meta name=”theme-color” content=”#db5945″>
+
+  <title>Vidan Ba Mai</title>
+</head>
+
+
+<body>
+
+  <!-- Navbar -->
+  <div class="nav-wrapper">
+    <nav class="grey darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">Vi Dan</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li class="active">
+              <a href="index.html">Home
+                <i class="fas fa-home right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="portfolio.html">Portfolio
+                <i class="fas fa-graduation-cap right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="videos.html">Videos
+                <i class="material-icons right">video_library</i>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-target="dropdown1" class="dropdown-trigger">Workout
+                <i class="fas fa-dumbbell right"></i>
+              </a>
+            </li>
+            <li>
+              <a class="waves-effect waves-light btn red" href="#contact">Contact
+                <i class="material-icons right">contact_mail</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Dropdown structure for navbar workout -->
+  <ul class="dropdown-content" id="dropdown1">
+    <li>
+      <a href="#" class="black-text">Workout Philosophy</a>
+    </li>
+    <li>
+      <a href="#" class="black-text">Workout Plan</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="#" class="red-text text-darken-2">Planned</a>
+    </li>
+  </ul>
+
+  <!-- Sidenav structure -->
+  <ul class="sidenav" id="mobile-nav">
+    <li class="active">
+      <a href="index.html">Home
+        <i class="fas fa-home right"></i>
+      </a>
+    </li>
+    <li>
+      <a href="portfolio.html">Portfolio
+        <i class="fas fa-graduation-cap right"></i>
+      </a>
+    </li>
+    <li>
+      <a href="videos.html">Videos
+        <i class="material-icons right">video_library</i>
+      </a>
+    </li>
+    <li>
+      <a href="#" data-target="dropdown2" class="dropdown-trigger">Workout
+        <i class="fas fa-dumbbell right"></i>
+      </a>
+    </li>
+    <li>
+      <a class="waves-effect waves-light btn red" href="#contact">Contact
+        <i class="material-icons right">contact_mail</i>
+      </a>
+    </li>
+  </ul>
+
+   <!-- Dropdown structure for navbar workout -->
+   <ul class="dropdown-content" id="dropdown2">
+      <li>
+        <a href="#" class="black-text">Workout Philosophy</a>
+      </li>
+      <li>
+        <a href="#" class="black-text">Workout Plan</a>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a href="#" class="red-text text-darken-2">Planned</a>
+      </li>
+    </ul>
+
+  <!-- Grid system -->
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel grey darken-4 z-depth-2">
+          <img class="responsive-img right" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-1/p160x160/14591686_10207565407033545_8555849211706075885_n.jpg?_nc_cat=0&_nc_eui2=AeErugtQ6aunmTFlkKKqLgNzyUZ5EZznFe7mPNWCZ1cx57pOOv3nknlhca6fE30Vodn0jnbuksCBdQpvhvVWu2ue2xluk3YuO0dpldX-yGD_Fg&oh=7646df709c812c2f103f5341e645b076&oe=5BBBF9E6">
+          <h1 class="white-text">Vi Dan Ba Mai</h1>
+          <h5 class="white-text">Bachelor student at University of Oslo</h5>
+          <p class="flow-text white-text">Hey welcome to my website! Here you can see all my projects and other content. Feel free to snoop around. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Collapsibles -->
+  <div class="container">
+    <h1>Collapsible Test</h1>
+    <ul class="collapsible">
+      <li>
+        <div class="collapsible-header">
+          <i class="material-icons">filter_drama</i>First</div>
+        <div class="collapsible-body">
+          <span>
+            Lorem ipsum dolor sit amet.</span>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">
+          <i class="material-icons">place</i>Second</div>
+        <div class="collapsible-body">
+          <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">
+          <i class="material-icons">whatshot</i>Third</div>
+        <div class="collapsible-body">
+          <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Parallax test -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/youngGirl.jpg">
+    </div>
+  </div>
+  <div class="section white">
+    <div class="row container wow animated fadeInLeft">
+      <h2 class="header">Parallax</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground
+        content while scrolling.</p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/backGirl.jpg">
+    </div>
+  </div>
+  <div class="section white">
+    <div class="row container wow animated fadeIn">
+      <h2>Section Two</h2>
+      <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui voluptas assumenda totam similique dignissimos ut accusamus eligendi. Quibusdam sit officia odit, architecto enim minus. Cumque facere sint ipsam est ab aut suscipit inventore laudantium, asperiores delectus. Saepe, minus iusto!</p>
+    </div>
+  </div>
+
+
+  <!-- Footer content -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s8">
+          <h5 class="white-text">Follow me on social media</h5>
+          <a href="#" class="mediaIcons">
+            <i class="fab fa-facebook fa-3x"></i>
+          </a>
+          <a href="#" class="mediaIcons">
+            <i class="fab fa-instagram fa-3x"></i>
+          </a>
+          <a href="#" class="mediaIcons">
+            <i class="fab fa-youtube fa-3x"></i>
+          </a>
+        </div>
+
+        <!-- Footer links -->
+        <div class="col s4">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Link 1</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Link 2</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Link 3</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer copyright -->
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+        © 2014 Vidan enterprises
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!--JavaScript at end of body for optimized loading-->
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="javascripts/main.js">
+  </script>
+  <!-- Importing wow.js for animation scroll reveal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>
