@@ -1,0 +1,34 @@
+body {
+    background-image: url(/img/deadlift-barbell-1920x1280.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: poppins;
+}
+
+.box {
+    background: rgba(85, 85, 85, 0.9);
+    color: white;
+    margin: 10px;
+    
+}
+
+.box p {
+    font-size: 18px;
+}
+
+.title {
+    color: white;
+}
+
+.title-chest {
+    background: #f44336;
+    padding: 0.5rem;
+    margin: 2rem;
+    
+}
+
+.title-back {
+    background: #2196f3;
+    padding: 0.5rem;
+    margin: 2rem;
+}

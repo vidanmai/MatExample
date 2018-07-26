@@ -3,6 +3,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: #fafafa;
+  font-family: poppins;
 }
 
 main {
@@ -12,4 +13,9 @@ main {
 
 .mediaIcons {
   color: #eeeeee;
+  padding: 0.5rem;
+}
+
+.parallax-container {
+  height: 500px;
 }
