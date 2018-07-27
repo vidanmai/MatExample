@@ -6,10 +6,8 @@ body {
 }
 
 .box {
-    background: rgba(85, 85, 85, 0.9);
+    background: rgba(85, 85, 85, 0.85);
     color: white;
-    margin: 10px;
-    
 }
 
 .box p {
@@ -18,6 +16,18 @@ body {
 
 .title {
     color: white;
+}
+
+.list li {
+    padding: 0.5rem;
+}
+
+.list h5 {
+    padding: 0.5rem;
+}
+
+.reps {
+    padding: 0.5rem;
 }
 
 .title-chest {
@@ -31,4 +41,8 @@ body {
     background: #2196f3;
     padding: 0.5rem;
     margin: 2rem;
+}
+
+.emptySpace {
+    margin: 5rem;
 }
