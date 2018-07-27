@@ -1,11 +1,9 @@
 body {
-    background-image: url(/img/deadlift-barbell-1920x1280.jpeg);
+    background-image: url(https://raw.githubusercontent.com/vidanmai/MatExample/master/img/deadlift-barbell-1920x1280.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: poppins;
 }
-
---test
 
 .box {
     background: rgba(85, 85, 85, 0.9);
