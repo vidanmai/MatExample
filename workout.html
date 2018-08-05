@@ -2,16 +2,14 @@
 <html>
 
 <head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  
   <!--Import materialize.css-->
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-  <!-- Importing google font -->
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
   <!-- Imported font from fontawesome.com -->
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/css?family=Ovo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
     crossorigin="anonymous">
   <!-- Imported material icons font -->
@@ -105,116 +103,247 @@
   </ul>
 
   <!-- Floating Action Button -->
- <div class="fixed-action-btn">
-        <a class="btn-floating btn-large red">
-            <i class="fas fa-plus"></i>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="fas fa-plus"></i>
+    </a>
+    <ul>
+      <li>
+        <a href="#chestSection" class="btn-floating blue">
+          <i class="fas fa-balance-scale"></i>Chest</a>
+      </li>
+      <li>
+        <a class="btn-floating red">
+          <i class="fas fa-columns"></i>
         </a>
-        <ul>
-          <li><a href="#chest" class="btn-floating blue"><i class="fas fa-balance-scale"></i>Chest</a></li>
-          <li><a class="btn-floating red"><i class="fas fa-columns"></i></a></li>
-          <li><a class="btn-floating green"><i class="fas fa-utensils"></i>Diet</a></li>
-        </ul>
+      </li>
+      <li>
+        <a class="btn-floating green">
+          <i class="fas fa-utensils"></i>Diet</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Intro page to workout philosophy -->
+  <div class="row">
+    <div class="col s12">
+      <div class="title">
+        <h1 class="black-text center">My workout regime</h1>
       </div>
-        
-  <!-- Grid System -->
+    </div>
+    <div class="col s12 introImgColumn">
+      <img src="https://raw.githubusercontent.com/vidanmai/MatExample/master/img/deadlift-barbell-1920x1280.jpeg" alt="" class="introImg">
+      <h2 class="introImgText">Workout Philosophy</h2>
+    </div>
+  </div>
+
   <div class="container">
     <div class="row">
-      <!-- Chest Section -->
-      <div id="chest" class="sectionChest section scrollspy">
-        <div class="col s12">
-          <div class="title">
-            <div class="title-chest">
-              <h3 class="center">Chest</h3>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Må fikse og legge til mer info angående øvelsene -->
-        <!-- First exercise box -->
-        <div class="box">
-          <h5 class="exerciseName center">Incline Dumbbell press</h5>
-          <li class="divider"></li>
-          <ul class="list muscle1">
-            <h5><u>Muscles stimulated:</u></h5>
-            <li class="muscle name">Anterior Deltoid</li>
-            <li class="muscle name">Pectoralis Major</li>
-            <li class="muscle name">Triceps Long Head</li>
-            <li class="muscle name">Serratus Anterior</li>
-          </ul>
-          <li class="divider"></li>
-          <ul class="list info1">
-            <h5><i class="fas fa-list-ol left"></i><u>Description:</u></h5>
-            <li class="muscle name">Incline at 30-45 degrees</li>
-            <li class="muscle name">Don't lift your butt while pressing</li>
-            <li class="muscle name">Lower dumbbells to collar bone</li>
-          </ul>
-          <li class="divider"></li>
-          <p class="reps">Heavy weight, 6-10 reps, 3-4 sets</p>
-          <li class="divider"></li>
-        </div>
-        <div class="emptySpace"></div>
-
-        <!-- Second exercise box -->
-        <div class="box">
-          <li class="divider"></li>
-          <h5 class="exerciseName center">Flat Dumbbell press</h5>
-          <li class="divider"></li>
-          <ul class="list muscle1">
-            <h5><u>Muscles stimulated:</u></h5>
-            <li class="muscle name">Anterior Deltoid</li>
-            <li class="muscle name">Pectoralis Major</li>
-            <li class="muscle name">Triceps Long Head</li>
-            <li class="muscle name">Serratus Anterior</li>
-          </ul>
-          <li class="divider"></li>
-          <ul class="list info1">
-            <h5><i class="fas fa-list-ol left"></i><u>Description:</u></h5>
-            <li class="muscle name">Incline at 30-45 degrees</li>
-            <li class="muscle name">Don't lift your butt while pressing</li>
-            <li class="muscle name">Lower dumbbells to collar bone</li>
-          </ul>
-          <li class="divider"></li>
-          <p class="reps">Heavy weight, 6-10 reps, 3-4 sets</p>
-          <li class="divider"></li>
-        </div>
-
-         <!-- Third exercise box -->
-        <div class="emptySpace"></div>
-        <div class="box">
-          <li class="divider"></li>
-          <h5 class="exerciseName center">Incline flys</h5>
-          <li class="divider"></li>
-          <ul class="list muscle1">
-            <h5><u>Muscles stimulated:</u></h5>
-            <li class="muscle name">Anterior Deltoid</li>
-            <li class="muscle name">Pectoralis Major</li>
-            <li class="muscle name">Triceps Long Head</li>
-            <li class="muscle name">Serratus Anterior</li>
-          </ul>
-          <li class="divider"></li>
-          <ul class="list info1">
-            <h5><i class="fas fa-list-ol left"></i><u>Description:</u></h5>
-            <li class="muscle name">Incline at 30-45 degrees</li>
-            <li class="muscle name">Don't lift your butt while pressing</li>
-            <li class="muscle name">Lower dumbbells to collar bone</li>
-          </ul>
-          <li class="divider"></li>
-          <p class="reps">Heavy weight, 6-10 reps, 3-4 sets</p>
-          <li class="divider"></li>
+      <div class="col s12">
+        <h3>The Beginning</h3>
       </div>
-      <!-- Back -->
-      <div id="back" class="section scrollspy">
-          <div class="col s12">
-            <div class="title">
-              <div class="title-back">
-                <h3 class="center">Back</h3>
-              </div>
-            </div>
+      <div class="col s12">
+        <p class="flow-text">We all have to start from somewhere. My fitness journey started as a result of continous comments on my body which
+          ultimately shaped a negative body image in my mind. Although modern society cherishes values and traits in people
+          that are accepting of one's own body and other bodies, this couldn't be further from the truth. In this case, the
+          truth of 'Everyone is different' became very true to me. I used to be very skinny and had a very small frame. I
+          was the smallest guy. Many comments were encouraging to gain weight, but other comments were said with ill intent
+          and was a way for people to gain superiority.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="container">
+    <h1 class="center red hoverable">Workout Plan</h1>
+    <div class="row card hoverable">
+      <ul class="tabs tabs-fixed-width tab-demo z-depth-4">
+        <li class="tab">
+          <a href="#shoulders">Shoulders</a>
+        </li>
+        <li class="tab">
+          <a href="#chest">Chest</a>
+        </li>
+        <li class="tab">
+          <a href="#arms">Arms</a>
+        </li>
+        <li class="tab">
+          <a href="#back">Back</a>
+        </li>
+        <li class="tab">
+          <a href="#legs">Legs</a>
+        </li>
+        <li class="tab">
+          <a href="#abs">Abs</a>
+        </li>
+      </ul>
+
+      <!-- Shoulder exercises -->
+      <div id="shoulders" class="col s12 white">
+        <li class="divider"></li>
+        <h2 class="card-panel grey darken-4 white-text">Shoulder Exercises</h2>
+        <div class="card-panel large green">
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Flat dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline flys - Mid-Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <div class="card-action">
+            <a href="#armSection" class="waves-effect waves-light btn orange">More In depth</a>
           </div>
         </div>
+      </div>
+      <!-- Chest exercises -->
+      <div id="chest" class="col s12 white">
+        <li class="divider"></li>
+        <h2 class="card-panel grey darken-4 white-text">Chest Exercises</h2>
+        <div class="card-panel large red">
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Flat dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Flat flys - Mid-Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <div class="card-action">
+            <a href="#chestSection" class="waves-effect waves-light btn orange">More In depth</a>
+          </div>
+        </div>
+      </div>
+      <!-- Arm exercises -->
+      <div id="arms" class="col s12 white">
+        <li class="divider"></li>
+        <h2 class="card-panel grey darken-4 white-text">Arm Exercises</h2>
+        <div class="card-panel large blue">
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Flat dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline flys - Mid-Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <div class="card-action">
+            <a href="#armSection" class="waves-effect waves-light btn orange">More In depth</a>
+          </div>
+        </div>
+      </div>
+      <!-- Back exercises -->
+      <div id="back" class="col s12 white">
+        <li class="divider"></li>
+        <h2 class="card-panel grey darken-4 white-text">Back Exercises</h2>
+        <div class="card-panel large indigo">
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Flat dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline flys - Mid-Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <div class="card-action">
+            <a href="#armSection" class="waves-effect waves-light btn orange">More In depth</a>
+          </div>
+        </div>
+      </div>
+      <!-- Leg exercises -->
+      <div id="legs" class="col s12 white">
+        <li class="divider"></li>
+        <h2 class="card-panel grey darken-4 white-text">Leg Exercises</h2>
+        <div class="card-panel large teal">
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Flat dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline flys - Mid-Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <div class="card-action">
+            <a href="#armSection" class="waves-effect waves-light btn orange">More In depth</a>
+          </div>
+        </div>
+      </div>
+      <!-- Ab exercises -->
+      <div id="abs" class="col s12 white">
+        <li class="divider"></li>
+        <h2 class="card-panel grey darken-4 white-text">Abdominal Exercises</h2>
+        <div class="card-panel large cyan">
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Flat dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline flys - Mid-Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <li class="divider"></li>
+          <p class="exerciseName white-text">Incline dumbbell chest press - Heavy weight, 3 sets, 6-10 reps</p>
+          <div class="card-action">
+            <a href="#armSection" class="waves-effect waves-light btn orange">More In depth</a>
+          </div>
+        </div>
+      </div> 
     </div>
-</div>
+  </div>
 
+  <div class="container">
+    <div class="row">
+      <h3>The struggle</h3>
+      <div class="col s8">
+        <img src="img/youngGirl.jpg" alt="" class="struggleImg">
+      </div>
+      <div class="col s4 white z-depth-2">
+        <p class>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ratione consequatur praesentium ex reiciendis doloremque cumque eaque nobis odit sunt non ab, voluptas aliquam quaerat consequuntur ipsam. Aliquam, labore quos minima, vel perferendis ut vitae in facilis odio excepturi sit!</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="chestSection" class="container section scrollspy">
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel red z-depth-3">
+          <h3 class="center white-text">Chest</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel grey lighten-3">lorem</div>
+      </div>
+      <div class="col s4">
+        <div class="card-panel grey lighten-3">lorem</div>
+      </div>
+      <div class="col s8">
+        <div class="card-panel grey lighten-3">lorem</div>
+      </div>
+    </div>
+  </div>
+  
   <!-- Footer content -->
   <footer class="page-footer grey darken-3">
     <div class="container">
@@ -253,6 +382,8 @@
       </div>
     </div>
 
+
+
     <!-- Footer copyright -->
     <div class="footer-copyright grey darken-4">
       <div class="container">
@@ -262,8 +393,9 @@
     </div>
   </footer>
 
-
-
+  <!-- Autoplay background music 
+  <iframe style="display: none" width="0" height="0" src="https://www.youtube.com/embed/h51aJ0_6L_c?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  -->
   <!--JavaScript at end of body for optimized loading-->
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>

@@ -15,7 +15,7 @@ M.Parallax.init(parallax, {});
 
 const tabs = document.querySelectorAll('.tabs');
 M.Tabs.init(tabs, {
-    swipeable: true,
+    swipeable: true
 });
 
 const fab = document.querySelector('.fixed-action-btn');
