@@ -110,9 +110,10 @@ p {
 /*Color of underline*/
 
 .tabs-content.carousel {
-    height: 100%;
+    width: 100%;
+    height: 550px;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .tabs-content.carousel .carousel-item {
@@ -123,4 +124,3 @@ p {
 .wpHeader {
     padding: 1rem;
 }
-
