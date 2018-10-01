@@ -4,14 +4,14 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  
+
   <!--Import materialize.css-->
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
- 
+
   <!-- Importing google font Poppins -->
   <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
   <!-- Imported font from fontawesome.com -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
     crossorigin="anonymous">
@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
   <!-- Importing stylesheet main.css -->
   <link rel="stylesheet" href="stylesheets/main.css">
+  <!-- Importing stylesheet home.css -->
+  <link rel="stylesheet" href="stylesheets/home.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Adding color to website tab in chrome -->
@@ -103,14 +105,16 @@
   </ul>
 
   <!-- Grid system -->
-  <div class="container">
+  <div class="container profileCard">
     <div class="row">
       <div class="col s12">
         <div class="card-panel grey darken-4 z-depth-2">
           <h2 class="white-text center">Vi Dan Ba Mai</h2>
           <img class="vidanpb circle responsive-img right" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/14591686_10207565407033545_8555849211706075885_n.jpg?_nc_cat=0&oh=f0fe650c66c13aa2a6c039a64ab8839c&oe=5C11C7B9">
           <!-- Added line breaks for more responsiveness-->
-          <br><br><br>
+          <br>
+          <br>
+          <br>
           <h5 class="white-text">Bachelor student at University of Oslo</h5>
           <p class="flow-text white-text">Hey! Welcome to my website. Here you can see all my projects and other content. Feel free to snoop around.</p>
           <a href="https://www.facebook.com/vidan97" class="mediaIcons">
@@ -128,104 +132,23 @@
     </div>
   </div>
 
-  <!-- Collapsibles -->
-  <div class="container">
-    <h1>Collapsible Test</h1>
-    <ul class="collapsible">
-      <li>
-        <div class="collapsible-header">
-          <i class="material-icons">filter_drama</i>First</div>
-        <div class="collapsible-body">
-          <span>
-            Lorem ipsum dolor sit amet.</span>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header">
-          <i class="material-icons">place</i>Second</div>
-        <div class="collapsible-body">
-          <span>Lorem ipsum dolor sit amet.</span>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header">
-          <i class="material-icons">whatshot</i>Third</div>
-        <div class="collapsible-body">
-          <span>Lorem ipsum dolor sit amet.</span>
-        </div>
-      </li>
-    </ul>
-  </div>
-
-  <!-- Parallax test -->
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="img/youngGirl.jpg">
+  <!-- About me Button -->
+  <div class="container buttonContainer">
+    <div class="row">
+      <div class="col s8 offset-s4">
+        <a id="aboutMeBtn" class="waves-effect waves-light btn-large">About Me</a>
+      </div>
+      
     </div>
   </div>
-  <div class="section scrollspy white" id="section1">
-    <div class="row container wow animated fadeInLeft">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground
-        content while scrolling.</p>
-    </div>
-  </div>
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="img/backGirl.jpg">
-    </div>
-  </div>
-  <div class="section scrollspy white" id="section2">
-    <div class="row container wow animated fadeIn">
-      <h2>Section Two</h2>
-      <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui voluptas assumenda totam similique dignissimos ut accusamus eligendi. Quibusdam sit officia odit, architecto enim minus. Cumque facere sint ipsam est ab aut suscipit inventore laudantium, asperiores delectus. Saepe, minus iusto!</p>
-    </div>
-  </div>
-
 
   <!-- Footer content -->
-  <footer class="page-footer grey darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col s8">
-          <h5 class="white-text">Follow me on social media</h5>
-          <a href="https://www.facebook.com/vidan97" class="mediaIcons">
-            <i class="fab fa-facebook fa-3x"></i>
-          </a>
-          <a href="https://www.instagram.com/vidanmai/" class="mediaIcons">
-            <i class="fab fa-instagram fa-3x"></i>
-          </a>
-          <a href="#" class="mediaIcons">
-            <i class="fab fa-youtube fa-3x"></i>
-          </a>
-        </div>
-
-        <!-- Footer links -->
-        <div class="col s4">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 1</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 2</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 3</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 4</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <footer>
 
     <!-- Footer copyright -->
     <div class="footer-copyright grey darken-4">
-      <div class="container">
+      <div class="container white-text">
         © Vidan enterprises
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
       </div>
     </div>
   </footer>

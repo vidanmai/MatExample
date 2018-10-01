@@ -18,6 +18,7 @@ M.Tabs.init(tabs, {
     swipeable: true
 });
 
+
 const fab = document.querySelector('.fixed-action-btn');
 M.FloatingActionButton.init(fab, {
     direction: 'left'

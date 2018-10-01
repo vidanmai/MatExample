@@ -1,10 +1,5 @@
 body {
-    /*
-    background-image: url(https://raw.githubusercontent.com/vidanmai/MatExample/master/img/deadlift-barbell-1920x1280.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    */
-    font-family: 'poppins', serif;
+    font-family: 'Poppins', serif;
     color: black;
     background: #e6dbc9;
 }
@@ -85,20 +80,9 @@ p {
     transform: translate(-50%, -90%);   
 }
 
-
-.tabs .tab a {
-    color: #000;
-}
-
 .tabs .tab a:hover {
     background-color: rgba(255, 255, 255, 0.253);
     color: #000;
-}
-
-/*Text color on hover*/
-
-.tabs .tab a.active {
-    background-color: rgba(0, 0, 0, 0);
 }
 
 /*Background and text color when a tab is active*/
@@ -123,4 +107,30 @@ p {
 
 .wpHeader {
     padding: 1rem;
+    border-radius: 1rem;
+}
+
+#twoBB {
+    width: 50%;
+}
+
+
+.quote {
+    display: block;
+    padding: 4.5rem 0;
+    margin-bottom: 3.33rem;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #4a4a4a;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .quote {
+        font-size: 2.5rem;
+    }
 }
